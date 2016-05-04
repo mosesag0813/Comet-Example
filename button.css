@@ -3,7 +3,10 @@ button {
   font-size: 15px;
   margin:10px;
   padding:3em;
+  border-radius:15px;
+  width:300px;
+  height:100px;
   display: block;
   color: aqua;
-  background-color: blue;
+  background: red;
 }
