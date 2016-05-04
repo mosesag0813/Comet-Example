@@ -7,7 +7,7 @@ button {
   height:100px;
   color: aqua;
   background: blue;
-  border-style:solid;
+  border-style:solid aqua;
   border-width:7px;
   text-align: center;
 }
