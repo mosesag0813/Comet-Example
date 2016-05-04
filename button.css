@@ -8,8 +8,8 @@ button {
   height:100px;
   display: block;
   color: aqua;
-  background: red;
+  background: blue;
   border-style:solid;
   border-width:7px;
-  text-align: justify;
+  text-align: center;
 }
