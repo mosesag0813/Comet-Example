@@ -1,7 +1,8 @@
 button {
   font-family: "serif", "sans-serif", "cursive", "fantasy", "monospace";
   font-size: 15px;
-  text-align: center;
+  margin:10px;
+  padding:3em;
   display: block;
-  background-color: aqua;
+  color: aqua;
 }
