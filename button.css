@@ -1,5 +1,5 @@
 button {
-  font-family: "cursive", "fantasy", "monospace";
+  font:cursive;
   font-size: 15px;
   margin:10px;
   padding:3em;
@@ -10,4 +10,5 @@ button {
   color: aqua;
   background: red;
   border-style:solid;
+  border-width:7px;
 }
