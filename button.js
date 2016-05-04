@@ -6,8 +6,8 @@
 *@author @mosesag0813 (github)
 */
 
-var cometButton = function(){
-button.prototype.create = (function(){
+cometButton = function(name){
+button.prototype.create = function(){
   var settings = {
     button.name:"",
     html:"button.html",
@@ -73,7 +73,7 @@ button.prototype.create = (function(){
     try {
       ui.test();
       if(ui === false){
-        ui.alert("Must get new download: " + "version");
+        ui.alert("Must get new download: " + version);
       }
     }
   }
@@ -88,6 +88,7 @@ button.prototype.create = (function(){
     if(mouse === overButton.state){
       ui.test(overButton.state.push(mouse.backgroundColor)) && overButton.state = true;
     }
+   } 
   } 
-  }); 
 }
+cometButton("Click");
