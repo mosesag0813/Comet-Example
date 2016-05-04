@@ -1,5 +1,5 @@
 button {
-  font:cursive;
+  font: Georgia;
   font-size: 15px;
   margin:10px;
   padding:3em;
@@ -11,4 +11,5 @@ button {
   background: red;
   border-style:solid;
   border-width:7px;
+  text-align:center;
 }
