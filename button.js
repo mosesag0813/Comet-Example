@@ -26,7 +26,7 @@ button.prototype.create = function(){
   
   return settings.test(settings.button.name(""));
 });
-  if(!"frameworks" || settings.getElementById("Invalid"){
+  if(!"frameworks" || settings.getElementById("Invalid") === false){
     throw "Error 104: Files given are invalid"
     try {
       settings.appendChild();
@@ -52,8 +52,6 @@ button.prototype.create = function(){
    * @constructor button.createNew.ui
    * @alias button.useNewElements
    **/
-  
-  
     var useElements = {
       css:"button.css",
       html:"button.html",
@@ -80,13 +78,14 @@ button.prototype.create = function(){
   
   // hover state
   button.prototype.hover = function(){
-    var mouse = ui.getElementById("Mouse-Over-Button");
+    var mouse = ui.createElement("Mouse-Over-Button");
     var overButton = {
       state:"overButton"
     };
-    mouse.backgroundColor = "blue", "red", "green", "alpha";
+    mouse.backgroundColor.display = ui.mouse(overButton.focus());
     if(mouse === overButton.state){
       ui.test(overButton.state.push(mouse.backgroundColor)) && overButton.state = true;
+      mouse.overButton.click();
     }
    } 
 }
