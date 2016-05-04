@@ -14,7 +14,8 @@ button.prototype.create = (function(){
     css:"button.css"
   };
   var createButton = {
-    min:"comet.min.js",
+    minJs:"comet.min.js",
+    minCss:"comet.min.css",
     name: ""
   };
 /**
@@ -24,7 +25,7 @@ button.prototype.create = (function(){
 * button, button-set and radio button.
 **/
   
-  return settings.test(settings.button.name(""));
+  return settings.test(settings.createButton.createAttribute("Generate a Button") && createButton.display.firstChild.innerHTML);
 });
   if(!"frameworks" || settings.getElementById("Invalid"){
     throw "Error 104: Files given are invalid"
