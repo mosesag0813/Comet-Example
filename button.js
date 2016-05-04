@@ -87,7 +87,7 @@ button.prototype.create = (function(){
     };
     mouse.backgroundColor = "blue", "red", "green", "alpha";
     if(mouse === overButton.state){
-      ui.test(overButton.state.push(mouse.backgroundColor)) && overButton.state = true;
+      ui.test(overButton.state.push(mouse.backgroundColor) && overButton.state = true);
     }
   } 
   }); 
