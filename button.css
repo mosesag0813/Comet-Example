@@ -2,11 +2,9 @@ button {
   font: Georgia;
   font-size: 15px;
   margin:250px;
-  padding:10em;
   border-radius:15px;
   width:350px;
   height:100px;
-  display: block;
   color: aqua;
   background: blue;
   border-style:solid;
