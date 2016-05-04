@@ -6,7 +6,7 @@
 *@author @mosesag0813 (github)
 */
 
-cometButton = function(name){
+cometButton = function(){
 button.prototype.create = function(){
   var settings = {
     button.name:"",
@@ -48,12 +48,12 @@ button.prototype.create = function(){
    return toggle.status("off") && toggle.statusOne === false || toggle.statusTwo === true;
   }
   
-  /** FrameworkJS is a native framework system that uses Comet dependencies.
+  /** CometworkJS is a native framework system that uses Comet dependencies.
    * @constructor button.createNew.ui
    * @alias button.useNewElements
    **/
   
-  var frameworksJS = (function(){
+  
     var useElements = {
       css:"button.css",
       html:"button.html",
@@ -89,6 +89,5 @@ button.prototype.create = function(){
       ui.test(overButton.state.push(mouse.backgroundColor)) && overButton.state = true;
     }
    } 
-  } 
 }
-cometButton("Click");
+cometButton();
