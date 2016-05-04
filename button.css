@@ -1,5 +1,5 @@
 button {
-  font-family: "serif", "sans-serif", "cursive", "fantasy", "monospace";
+  font-family: "cursive", "fantasy", "monospace";
   font-size: 15px;
   margin:10px;
   padding:3em;
@@ -9,4 +9,5 @@ button {
   display: block;
   color: aqua;
   background: red;
+  border-style:solid;
 }
