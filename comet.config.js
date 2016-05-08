@@ -3,3 +3,4 @@ function onclick(){
   var use = require('use');
   use(comet.min.js)
 }
+onclick();
