@@ -6,8 +6,12 @@ button {
   width:350px;
   height:100px;
   color: aqua;
-  background: blue;
+  background: white;
   border-style:solid aqua;
   border-width:7px;
   text-align: center;
+}
+button:hover {
+  background-color:aqua;
+  color:white;
 }
