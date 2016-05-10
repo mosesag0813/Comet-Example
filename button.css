@@ -11,6 +11,7 @@ button {
   border-width:7px;
   text-align: center;
   transition-duration: 4.9s;
+  cursor: pointer;
 }
 button:hover {
   background-color:aqua;
