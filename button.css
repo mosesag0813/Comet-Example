@@ -8,6 +8,7 @@ button {
   color: aqua;
   background: white;
   border-style:solid aqua;
+  border-color: blue;
   border-width:7px;
   text-align: center;
   transition-duration: 0.4s;
