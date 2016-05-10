@@ -10,6 +10,7 @@ button {
   border-style:solid aqua;
   border-width:7px;
   text-align: center;
+  transition-duration: 4.9s;
 }
 button:hover {
   background-color:aqua;
