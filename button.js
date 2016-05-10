@@ -25,7 +25,7 @@ button.prototype.create = function(){
 **/
   
   return settings.test(settings.button.name(""));
-});
+}
   if(!"frameworks" || settings.getElementById("Invalid") === false){
     throw "Error 104: Files given are invalid"
     try {
@@ -41,7 +41,7 @@ button.prototype.create = function(){
       statusOne:"on",
       statusTwo:"off"
     };
-    this.ui.display = window.open(settings.toggle.status("On"));
+    this.ui.display = window.open(settings.toggle.status("On") && button.prototype.create());
     this.ui.test("web.js");
     this.ui.hasFeature("buttons") && this.ui.getElementsByClassName("button");
     
@@ -85,7 +85,7 @@ button.prototype.create = function(){
     mouse.backgroundColor.display = ui.mouse(overButton.focus());
     if(mouse === overButton.state){
       ui.test(overButton.state.push(mouse.backgroundColor)) && overButton.state = true;
-      mouse.overButton.click();
+      mouse.overButton.click(button.prototype.toggle());
     }
    } 
 }
