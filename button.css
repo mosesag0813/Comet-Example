@@ -8,13 +8,13 @@ button {
   color: aqua;
   background: white;
   border-style:solid aqua;
-  border-color: blue;
+  border-color: #1DA6B7;
   border-width:7px;
   text-align: center;
   transition-duration: 0.4s;
   cursor: pointer;
 }
 button:hover {
-  background-color:aqua;
+  background-color: #2090D4;
   color:white;
 }
