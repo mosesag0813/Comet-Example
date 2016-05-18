@@ -26,7 +26,7 @@ ul {
    background-color: #2090D4;
 }
 li {
-  float: center; 
+  float: left; 
 }    
 li a {
   display: inline;   
