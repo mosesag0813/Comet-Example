@@ -1,3 +1,3 @@
 var mouse = document.createElement('onclick');
-var button = require('button');
+var button = document.innerHTML.getAttribute('@active');
 mouse.button().click();
