@@ -7,10 +7,26 @@
 <script language="JavaScript" type="text/javascript" src="comet.config.js"></script>
 </head>
 <body>
-  <div class="navbar">
-  <li>Get</li>  
-  <li>go</li>
-  </div>
+  <header class="header">
+  <nav role="navigation" aria-label="main">
+    <ul class="header-nav container">
+      <li class="header-logo">
+        <a href="http://emberjs.com/"><span class="visually-hidden">Ember homepage</span></a>
+      </li><li><a href="/about">About</a></li>
+      <li><a href="http://guides.emberjs.com">Guides</a></li>
+      <li><a href="/api">API</a></li>
+      <li><a href="/community">Community</a></li>
+      <li><a href="/blog">Blog</a></li>
+      <li><a href="/builds">Builds</a></li>
+      <li class="header-search">
+        <form>
+          <input type="text" id="st-search-input" placeholder="" class="st-search-input" autocomplete="off" autocorrect="off" autocapitalize="off" style="outline: none;">
+        </form>
+        <div id="st-results-container"></div>
+      </li>
+    </ul>
+  </nav>
+</header>
 <button onclick="prompt('Now do you believe me?')">See what CometJS can do</button>
 </body>
 </html>
