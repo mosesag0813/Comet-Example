@@ -1,7 +1,7 @@
 button {
     font: Georgia;
     font-size: 15px;
-    margin: 250px;
+    margin: 350px;
     border-radius: 6px;
     width: 300px;
     height: 85px;
@@ -24,6 +24,7 @@ ul {
    padding: 0;
    overflow: hidden;
    background-color: #2090D4;
+   top: 0;
 }
 li {
   float: left; 
