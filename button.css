@@ -21,14 +21,13 @@ button:hover {
 ul {
    list-style-type: none;
    margin: 0;
-   padding-right: 0;
-   padding-left: 0;
+   padding: 0;
    overflow: hidden;
    background-color: #2090D4;
    
 }
 li {
-  float: left;
+  float: right;
 }    
 li a {
     display: block;   
