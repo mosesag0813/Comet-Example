@@ -6,8 +6,7 @@ button {
   width:350px;
   height:100px;
   color: blue;
-  background: white;
-  border-style:solid aqua;
+  background-color: transparent;
   border-color: #1DA6B7;
   border-width:7px;
   text-align: center;
