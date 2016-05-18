@@ -24,10 +24,10 @@ ul {
    padding: 0;
    overflow: hidden;
    background-color: #2090D4;
-   top: 0;
 }
 li {
-  float: left; 
+  float: left;
+  top: 0;
 }    
 li a {
     display: block;   
