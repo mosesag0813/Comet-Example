@@ -18,10 +18,19 @@ button:hover {
   background-color: #2090D4;
   color:white;
 }
-.navbar { 
-   padding:0 17px;
-   display: inline;
-}
-.navbar a {
-    
-}
+ul {
+     list-style-type: none;
+     margin: 0;
+    padding-right: 0;
+    padding-left: 0;
+    padding: 0;
+     overflow: hidden;
+     background-color: #2090D4;
+     
+  }
+  li {
+    float: left;
+  }    
+  li a {
+      display: block;  
+  }
