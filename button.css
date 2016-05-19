@@ -25,12 +25,17 @@ ul {
     padding-left: 0;
     padding: 0;
      overflow: hidden;
+   }
+nav {
      background-color: #2090D4;
-     
+  }
   }
   li {
     float: left;
   }    
   li a {
       display: block;  
+  }
+  li a:hover {
+      
   }
