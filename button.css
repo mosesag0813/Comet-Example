@@ -1,3 +1,6 @@
+body {
+    color:#23526D;
+}
 button {
     font: Georgia;
     font-size: 15px;
@@ -24,6 +27,9 @@ ul {
    padding: 0;
    overflow: hidden;
    background-color: #2090D4;
+   position: fixed;
+    top: 0;
+    width: 100%;
 }
 li {
   float: left; 
@@ -37,4 +43,8 @@ li a {
 }
 li a:hover {
   background-color: #03A9F4;
+}
+h1 {
+    text-align:center;
+    color:#3594B7;
 }
